@@ -1,0 +1,248 @@
+.searchInputs {
+  margin-top: -31px;
+  margin-left: 100px;
+  display: flex;
+  box-shadow: 0px 16px 24px 2px rgba(0, 0, 0, 0.14),
+    0px 6px 10px 5px rgba(0, 0, 0, 0.12), 0px 8px 10px -7px rgba(0, 0, 0, 0.2);
+}
+
+.search input {
+  background-color: white;
+  border: 0;
+  /* border-radius: 10px; */
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  font-size: 18px;
+  padding: 15px;
+  height: 40px;
+  width: 300px;
+}
+
+.searchIcon {
+  height: 40px;
+  width: 50px;
+  background-color: white;
+  display: grid;
+  place-items: center;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+input:focus {
+  outline: none;
+}
+.searchIcon svg {
+  font-size: 35px;
+}
+
+.dataResult {
+  margin-left: 205px;
+  margin-top: 5px;
+  width: 350px;
+  height: 200px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  overflow: hidden;
+  overflow-y: auto;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.dataResult::-webkit-scrollbar {
+  display: none;
+}
+
+.dataResult .dataItem {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  color: black;
+}
+
+.dataItem p {
+  margin-left: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.dataResult a:hover {
+  background-color: lightgrey;
+  text-decoration: none;
+}
+
+#clearBtn {
+  cursor: pointer;
+}
+
+#btn-category {
+    border-radius: 10px;
+  }
+
+  .cat-list{
+    display: none;
+    list-style: none;
+
+  }
+
+  .btn:hover + .cat-list{
+    display: block;
+  }
+
+/* Dropdown Button */
+/* #dropbtn {  */
+  /* background-color: #04AA6D; */
+  /* color: white;
+  padding-top: 0px;
+} */
+
+/* The container <div> - needed to position the dropdown content
+.dropdown {
+  position: relative;
+  display: inline-block;
+} */
+
+/* Dropdown Content (Hidden by Default) */
+/* .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 130px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  font-size: 12px;
+} */
+
+/* Links inside the dropdown */
+/* .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+} */
+
+/* Change color of dropdown links on hover */
+/* .dropdown-content a:hover {
+  background-color: #ddd;
+} */
+
+/* Show the dropdown menu on hover */
+/* .dropdown:hover .dropdown-content {
+  display: block;
+} */
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+/* .dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+} */
+
+.main-btn {
+  display: inline-block;
+  width: 150px;
+  height: 50px;
+  border: 1px solid #cccccc;
+  padding: 0px;
+  position: relative;
+  float: left;
+  border-right: 0px;
+  background: #ffffff
+    url("http://seodesigns.com/projects/TD/images/main-bullet.png") 122px 23px
+    no-repeat;
+  background-size: 6px 6px;
+  cursor: pointer;
+}
+
+.search-small {
+  font-size: 12px;
+  margin: 0px;
+  color: #9b9b9b;
+  position: absolute;
+  top: 6px;
+  left: 16px;
+  display: inline-block;
+  width: 80px;
+  height: 20px;
+  text-align: left;
+}
+.search-large {
+  font-size: 16px;
+  margin: 0px;
+  color: #4a4a4a;
+  position: absolute;
+  top: 19px;
+  left: 16px;
+  display: inline-block;
+  width: 105px;
+  height: 20px;
+  font-weight: 900;
+  text-align: left;
+}
+
+ul.search-description {
+  width: 150px;
+  position: absolute;
+  background: #fff;
+  right: 143px;
+  top: 55px;
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  padding: 14px 0px;
+  border: 1px solid #e5e5e5;
+  display: none;
+  -webkit-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.3);
+}
+.search-description li {
+  font-size: 16px;
+  color: #4a4a4a;
+  font-weight: 900;
+  padding: 6px 0px;
+  display: block;
+  padding-left: 16px;
+  cursor: pointer;
+}
+.search-description li:hover {
+  background: #f8f8f8;
+}
+
+
+.search-sec{
+  padding: 2rem;
+}
+.search-slt{
+  display: block;
+  width: 100%;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  color: #55595c;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  height: calc(3rem + 2px) !important;
+  border-radius:0;
+}
+.wrn-btn{
+  width: 100%;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: capitalize;
+  height: calc(3rem + 2px) !important;
+  border-radius:0;
+}
+@media (min-width: 992px){
+  .search-sec{
+      position: relative;
+      top: -114px;
+      background: rgba(26, 70, 104, 0.51);
+  }
+}
+
+@media (max-width: 992px){
+  .search-sec{
+      background: #1A4668;
+  }
+}
